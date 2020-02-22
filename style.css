@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat';
+    margin: 0px;
+}
+h1{
+    color:rgb(238, 41, 97);
+    font-size: 45px;
+}
+h2{
+    font-size:40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position:  left;
+}
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: springgreen;
+    background-image:linear-gradient(180deg, rgba(0, 255, 255, 0.781),rgb(20, 228, 20)
+) ;
+    padding:  12px 22px;
+    border-radius: 7px;
+    font-weight: bolder;
+    color: tomato;
+    font-size: 20px;
+}
+.about-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position:  left;
+}
+.one-third-width{
+    width:20%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.one-third-width img{
+    width:100%;
+}
+
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    padding-top: 70px;
+}
+.feedback-area{
+    background-image: url("images/footer-bg.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position:  left;
+}
